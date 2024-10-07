@@ -1,0 +1,15 @@
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\bin\Debug\macTools.exe.config
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\bin\Debug\macTools.exe
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\bin\Debug\macTools.pdb
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\obj\Debug\macTools.csproj.AssemblyReference.cache
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\obj\Debug\macTools.macToolsCTRL.resources
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\obj\Debug\macTools.Properties.Resources.resources
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\obj\Debug\macTools.csproj.GenerateResource.cache
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\obj\Debug\macTools.csproj.CoreCompileInputs.cache
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\obj\Debug\macTools.exe
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\obj\Debug\macTools.pdb
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\obj\Debug\macTools.KeyCombos.resources
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\bin\Debug\WindowsInput.dll
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\bin\Debug\WindowsInput.xml
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\obj\Debug\macTools.csproj.Up2Date
+C:\Users\ProximalElk6186\source\repos\macTools\macTools\obj\Debug\macTools.AboutProgram.resources
