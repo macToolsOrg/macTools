@@ -32,6 +32,9 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
@@ -47,9 +50,6 @@
             this.viewProjectOnGitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.applyButton = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -65,26 +65,26 @@
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage8);
             this.tabControl1.Controls.Add(this.tabPage9);
-            this.tabControl1.Location = new System.Drawing.Point(12, 39);
+            this.tabControl1.Location = new System.Drawing.Point(11, 37);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1571, 737);
+            this.tabControl1.Size = new System.Drawing.Size(1440, 708);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage3
             // 
-            this.tabPage3.Location = new System.Drawing.Point(8, 39);
+            this.tabPage3.Location = new System.Drawing.Point(4, 33);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1555, 690);
+            this.tabPage3.Size = new System.Drawing.Size(1432, 671);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Trackpad";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // tabPage1
             // 
-            this.tabPage1.Location = new System.Drawing.Point(8, 39);
+            this.tabPage1.Location = new System.Drawing.Point(4, 33);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Size = new System.Drawing.Size(1555, 690);
+            this.tabPage1.Size = new System.Drawing.Size(1432, 671);
             this.tabPage1.TabIndex = 7;
             this.tabPage1.Text = "Mouse";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -94,54 +94,86 @@
             this.tabPage4.Controls.Add(this.button1);
             this.tabPage4.Controls.Add(this.checkBox2);
             this.tabPage4.Controls.Add(this.checkBox1);
-            this.tabPage4.Location = new System.Drawing.Point(8, 39);
+            this.tabPage4.Location = new System.Drawing.Point(4, 33);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1555, 690);
+            this.tabPage4.Size = new System.Drawing.Size(1432, 671);
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "Keyboard";
             this.tabPage4.UseVisualStyleBackColor = true;
+            this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(479, 617);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(944, 42);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Launch the Hotkeys managing application (for testing purposes only, will be delet" +
+    "ed for the release version)";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(3, 36);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(298, 29);
+            this.checkBox2.TabIndex = 1;
+            this.checkBox2.Text = "Pressing F3 opens Task View";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(3, 3);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(302, 29);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "Pressing F4 opens Start Menu";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // tabPage5
             // 
-            this.tabPage5.Location = new System.Drawing.Point(8, 39);
+            this.tabPage5.Location = new System.Drawing.Point(4, 33);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1555, 690);
+            this.tabPage5.Size = new System.Drawing.Size(1432, 671);
             this.tabPage5.TabIndex = 2;
             this.tabPage5.Text = "Screen";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // tabPage6
             // 
-            this.tabPage6.Location = new System.Drawing.Point(8, 39);
+            this.tabPage6.Location = new System.Drawing.Point(4, 33);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(1555, 690);
+            this.tabPage6.Size = new System.Drawing.Size(1432, 671);
             this.tabPage6.TabIndex = 3;
             this.tabPage6.Text = "Sound";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // tabPage7
             // 
-            this.tabPage7.Location = new System.Drawing.Point(8, 39);
+            this.tabPage7.Location = new System.Drawing.Point(4, 33);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1555, 690);
+            this.tabPage7.Size = new System.Drawing.Size(1432, 671);
             this.tabPage7.TabIndex = 4;
             this.tabPage7.Text = "On-screen display";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // tabPage8
             // 
-            this.tabPage8.Location = new System.Drawing.Point(8, 39);
+            this.tabPage8.Location = new System.Drawing.Point(4, 33);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Size = new System.Drawing.Size(1555, 690);
+            this.tabPage8.Size = new System.Drawing.Size(1432, 671);
             this.tabPage8.TabIndex = 5;
             this.tabPage8.Text = "Software";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
             // tabPage9
             // 
-            this.tabPage9.Location = new System.Drawing.Point(8, 39);
+            this.tabPage9.Location = new System.Drawing.Point(4, 33);
             this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Size = new System.Drawing.Size(1555, 690);
+            this.tabPage9.Size = new System.Drawing.Size(1432, 671);
             this.tabPage9.TabIndex = 6;
             this.tabPage9.Text = "Misc.";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -158,32 +190,32 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1590, 42);
+            this.menuStrip1.Size = new System.Drawing.Size(1458, 38);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 36);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(62, 34);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // windowToolStripMenuItem
             // 
             this.windowToolStripMenuItem.Name = "windowToolStripMenuItem";
-            this.windowToolStripMenuItem.Size = new System.Drawing.Size(74, 36);
+            this.windowToolStripMenuItem.Size = new System.Drawing.Size(66, 34);
             this.windowToolStripMenuItem.Text = "Edit";
             // 
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(85, 36);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(75, 34);
             this.viewToolStripMenuItem.Text = "View";
             // 
             // windowToolStripMenuItem1
             // 
             this.windowToolStripMenuItem1.Name = "windowToolStripMenuItem1";
-            this.windowToolStripMenuItem1.Size = new System.Drawing.Size(121, 36);
+            this.windowToolStripMenuItem1.Size = new System.Drawing.Size(107, 34);
             this.windowToolStripMenuItem1.Text = "Window";
             // 
             // helpToolStripMenuItem
@@ -193,74 +225,44 @@
             this.viewProjectOnGitHubToolStripMenuItem,
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(84, 38);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(74, 34);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // helpSupportToolStripMenuItem
             // 
             this.helpSupportToolStripMenuItem.Name = "helpSupportToolStripMenuItem";
-            this.helpSupportToolStripMenuItem.Size = new System.Drawing.Size(396, 44);
+            this.helpSupportToolStripMenuItem.Size = new System.Drawing.Size(346, 40);
             this.helpSupportToolStripMenuItem.Text = "Help and Support";
             this.helpSupportToolStripMenuItem.Click += new System.EventHandler(this.helpSupportToolStripMenuItem_Click);
             // 
             // viewProjectOnGitHubToolStripMenuItem
             // 
             this.viewProjectOnGitHubToolStripMenuItem.Name = "viewProjectOnGitHubToolStripMenuItem";
-            this.viewProjectOnGitHubToolStripMenuItem.Size = new System.Drawing.Size(396, 44);
+            this.viewProjectOnGitHubToolStripMenuItem.Size = new System.Drawing.Size(346, 40);
             this.viewProjectOnGitHubToolStripMenuItem.Text = "View project on GitHub";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(396, 44);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(346, 40);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // applyButton
             // 
-            this.applyButton.Location = new System.Drawing.Point(1435, 774);
+            this.applyButton.Location = new System.Drawing.Point(1315, 743);
             this.applyButton.Name = "applyButton";
-            this.applyButton.Size = new System.Drawing.Size(140, 42);
+            this.applyButton.Size = new System.Drawing.Size(128, 40);
             this.applyButton.TabIndex = 2;
             this.applyButton.Text = "Apply";
             this.applyButton.UseVisualStyleBackColor = true;
             this.applyButton.Click += new System.EventHandler(this.applyButton_Click);
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(3, 3);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(335, 29);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Pressing F4 opens Start Menu";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(3, 38);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(329, 29);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Pressing F3 opens Task View";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(1127, 643);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(425, 44);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Launch the Hotkeys managing application";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // macToolsCTRL
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1590, 828);
+            this.ClientSize = new System.Drawing.Size(1458, 795);
             this.Controls.Add(this.applyButton);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
